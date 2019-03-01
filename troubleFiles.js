@@ -1,7 +1,7 @@
 function troubleFiles(files, backups) {
     var troubleArray = [],
         fileIndex = 0;
-    
+        
     for(i=0; i<backups.length; i++) {
         var sizeOfWaitingFiles = 0;
         
